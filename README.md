@@ -49,34 +49,6 @@ open up you local host and port
 ```
 
 
-
-
-
-
-## MLflow
-
-- [Documentation](https://mlflow.org/docs/latest/index.html)
-
-- [MLflow tutorial](https://youtu.be/qdcHHrsXA48?si=bD5vDS60akNphkem)
-
-##### cmd
-- mlflow ui
-
-### dagshub
-[dagshub](https://dagshub.com/)
-
-import dagshub
-dagshub.init(repo_owner='tharukafonseka7', repo_name='kidney_-disease-classification', mlflow=True)
-
-import mlflow
-with mlflow.start_run():
-  mlflow.log_param('parameter name', 'value')
-  mlflow.log_metric('metric name', 1)
-
-Run this to export as env variables:
-
-```bash
-
 export MLFLOW_TRACKING_URI=https://dagshub.com/tharukafonseka7/kidney_-disease-classification.mlflow
 
 export MLFLOW_TRACKING_USERNAME=tharukafonseka7 
