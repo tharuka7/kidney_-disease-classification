@@ -1,4 +1,4 @@
-# Kidney-Disease-Classification-MLflow
+# Kidney-Disease-Classification-MLflow 🩺
 
 
 ## Workflows
@@ -49,5 +49,25 @@ open up you local host and port
 ```
 
 
+
+![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)
+![MLflow](https://img.shields.io/badge/MLflow-Integrated-orange)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-CNN-red)
+
+AI-powered diagnostic system for detecting kidney abnormalities from CT scans using Deep Learning and MLflow.
+
+## Application Preview
+
+<div align="center">
+  <img src="images/1.png" width="80%" alt="Normal Kidney Diagnosis Interface">
+  <br>
+  <em>Normal Kidney Diagnosis Interface</em>
+</div>
+
+<div align="center" style="margin-top: 30px;">
+  <img src="images/2.png" width="80%" alt="Tumor Detection Interface">
+  <br>
+  <em>Tumor Detection Interface</em>
+</div>
 
 
