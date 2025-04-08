@@ -53,7 +53,7 @@ open up you local host and port
 ```
 
 
-## Application Preview
+## Web Application Preview
 
 AI-powered diagnostic system for detecting kidney abnormalities from CT scans using Deep Learning and MLflow.
 
